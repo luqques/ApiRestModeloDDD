@@ -1,6 +1,8 @@
-﻿namespace RestApiModeloDDD.Domain.Core.Interfaces.Repositorys
+﻿using RestApiModeloDDD.Domain.Entitys;
+
+namespace RestApiModeloDDD.Domain.Core.Interfaces.Repositorys
 {
-    public interface IRepositoryCliente : IRepositoryBase<RestApiModeloDDD.Domain.Core>
+    public interface IRepositoryCliente : IRepositoryBase<Cliente>
     {
 
     }
